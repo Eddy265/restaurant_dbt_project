@@ -39,7 +39,7 @@ models:
       +schema: dev
     staging:
       +materialized: view
-      +schema: dev
+      #+schema: dev
     intermediate:
       +materialized: view
       
