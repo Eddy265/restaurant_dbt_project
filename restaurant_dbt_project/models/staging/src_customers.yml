@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: food_delievery
+    description: a clone of the postgres raw database of the food_delivery.
+    database: Food_Delivery_DB
+    schema: public
+    tables:
+      - name: customers
+        description: raw data for the customers table     
+
+      - name: menu_items
+        description: raw data for the menu_items table
+        
+
+      - name: order_items
+        description: raw data for the order_items table
+        
+      - name: orders
+        description: raw data for the orders table
+
+      - name: restaurants
+        description: raw data for the restaurants table
+        
+
+  
+    
