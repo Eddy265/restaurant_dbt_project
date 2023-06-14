@@ -36,7 +36,7 @@ models:
     # Config indicated by + and applies to all files under models/example/
     marts:
       +materialized: table
-      +schema: dev
+      #+schema: dev
     staging:
       +materialized: view
       #+schema: dev
