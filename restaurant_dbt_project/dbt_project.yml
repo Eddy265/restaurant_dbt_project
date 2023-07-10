@@ -36,10 +36,10 @@ models:
     # Config indicated by + and applies to all files under models/example/
     marts:
       +materialized: table
-      #+schema: dev
+      +schema: prod
     staging:
       +materialized: view
-      #+schema: dev
+      +schema: prod
     intermediate:
       +materialized: view
       
